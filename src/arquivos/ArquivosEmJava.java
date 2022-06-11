@@ -17,6 +17,15 @@ public class ArquivosEmJava {
 		
 		escrever_arquivo.write("texto teste");
 		escrever_arquivo.write("texto teste 2 ");
+		
+		for(int i=0;i<5;i++) {
+			escrever_arquivo .write("Adicionando quebra de linha" + "\n");
+		}
+		
+		
+		
+		
+		
 		escrever_arquivo.flush();
 		escrever_arquivo.close();
 		
