@@ -7,7 +7,7 @@ public class Pessoa {
 	private int idade;
 	
 	public Pessoa() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public Pessoa(String nome, String email, int idade) {
